@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -12,13 +14,14 @@ h1 {
     width: 100%;
 }
 
-.container {
-    background-color: #6c567b;
+.content {
+    margin: 5px;
+    position: relative;
     border: 1px solid #000000;
+    background-color: #6c567b;
+    
 }
-
-h4 {
-    margin: 0;
+h3 {
     text-align: center;
     color: #000000;
     background-color: #c06c84;
@@ -43,8 +46,9 @@ h4 {
 }
 
 p {
-    width: 90%;
-    height: 150px;
+    padding: 10px;
+    width: 80%;
+    height: 200px;
     margin-right: auto;
     margin-left: auto;
     clear: right;
