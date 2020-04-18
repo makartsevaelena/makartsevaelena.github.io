@@ -1,0 +1,101 @@
+body {
+    font-family: "Oxygen", monospace;
+    background: #6c7b95;
+}
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+    background: url('../images/rabbit-4988412_1280.jpg') no-repeat;
+}
+
+.title-header a {
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.title-header a:focus,
+.title-header a:hover {
+    text-decoration: none;
+}
+
+.jumbotron {
+    background: url('../images/carrot-1031389_1280.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    margin-bottom: 0;
+    opacity: .8;
+}
+
+.row {
+    margin: 2px;
+}
+
+.col {
+    text-align: center;
+    border: 1px solid #8bbabb;
+    margin: 2px;
+    padding: 0;
+}
+
+.col:hover {
+    box-shadow: 0 1px 1px 1px #8bbabb;
+}
+
+.menu-tile span,
+.specials-tile span,
+.map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #8bbabb;
+    color: #ffffff;
+    opacity: .8;
+}
+
+.menu-tile {
+    background: url('../images/food-1209503_640.jpg') no-repeat;
+    background-position: center;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: .8;
+    padding-bottom: 56.25%;
+}
+
+.specials-tile {
+    background: url('../images/top-view-1248955_640.jpg') no-repeat;
+    background-position: center;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: .8;
+    padding-bottom: 56.25%;
+}
+
+.map-container {
+    padding-bottom: 56.25%;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.footer-copyright a{
+    color: #212529;
+}
