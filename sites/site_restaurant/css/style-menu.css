@@ -20,22 +20,9 @@ header {
     line-height: 50px;
 }
 
-.jumbotron {
-    background: url('../images/carrot-1031389_1280.jpg') no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.1em;
-    text-align: center;
-    opacity: .8;
-    margin-top: 6px;
-    margin-bottom: 3px;
-}
-
 .tiles {
     margin: 0 1px;
     padding: 0;
-    padding-bottom: 20px;
 }
 
 .row {
@@ -43,25 +30,14 @@ header {
     width: 100%;
 }
 
-.col-lg-4,
 .col-md-4,
-.col-md-12,
 .col-xs-4 {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.col-lg-4:hover,
-.col-md-4:hover,
-.col-md-12:hover,
-.col-xs-4:hover {
-    box-shadow: 0 1px 1px 1px #527441;
-}
-
-.menu-tile span,
-.specials-tile span,
-.map-tile span {
+.tile span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -76,28 +52,44 @@ header {
 .tile {
     margin: 3px 2px;
     opacity: .8;
-    padding: 35% 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
-.menu-tile {
-    background: url('../images/food-1209503_640.jpg') no-repeat;
+.a-tile {
+    background: url('../images/menu-categories/carrot-juice-1623157_640.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.specials-tile {
-    background: url('../images/market-4354598_640.jpg') no-repeat;
+.b-tile {
+    background: url('../images/menu-categories/carrots-2106825_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c-tile {
+    background: url('../images/menu-categories/carrots-673184_640.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.map-container iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    position: absolute;
-    padding: 4px;
+.d-tile {
+    background: url('../images/menu-categories/clover-1225988_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+.e-tile {
+    background: url('../images/menu-categories/savoy-545346_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.f-tile {
+    background: url('../images/menu-categories/tomatoes-769999_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 footer a {
     color: #212529;
@@ -116,18 +108,10 @@ footer a {
     .restaurantName-text span {
         display: none;
     }
-
-    .tile {
-        padding: 100px 0;
-    }
 }
 
 /*Tablets*/
-@media (min-width: 769px) and (max-width: 1199px) {
-    .tile {
-        padding: 20% 0;
-    }
-}
+@media (min-width: 769px) and (max-width: 1199px) {}
 
 /*Desktops*/
 @media (min-width: 1200px) {}

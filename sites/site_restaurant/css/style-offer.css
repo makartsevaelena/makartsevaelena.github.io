@@ -1,0 +1,50 @@
+body {
+    font-family: "Oxygen", monospace;
+    background: #6c7b95;
+    padding-top: 75px;
+}
+
+header {
+    width: 100%;
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+    background: url('../images/rabbit-3899900_640.png') no-repeat;
+    background-size: contain;
+}
+
+.restaurantName-holder {
+    margin-left: 15px;
+    line-height: 50px;
+}
+
+.offer {
+    padding-top: 225px;
+    padding-bottom: 225px;
+}
+footer a {
+    color: #212529;
+}
+
+.support {
+    text-align: center;
+}
+
+/*Mobile*/
+@media (max-width: 768px) {
+    body {
+        padding-top: 75px;
+    }
+
+    .restaurantName-text span {
+        display: none;
+    }
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 1199px) {}
+
+/*Desktops*/
+@media (min-width: 1200px) {}
