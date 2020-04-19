@@ -19,10 +19,15 @@ header {
     margin-left: 15px;
     line-height: 50px;
 }
+main {
+    background: url('../images/easter-nest-2164820_1920.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .offer {
-    padding-top: 225px;
-    padding-bottom: 225px;
+    padding-top: 300px;
+    padding-bottom: 350px;
 }
 footer a {
     color: #212529;
@@ -30,6 +35,9 @@ footer a {
 
 .support {
     text-align: center;
+}
+.btn {
+    margin-bottom: 10px;
 }
 
 /*Mobile*/
