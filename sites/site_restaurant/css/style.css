@@ -95,10 +95,13 @@ header {
     padding: 4px;
 }
 
-.footer-copyright a {
+footer a {
     color: #212529;
 }
 
+.support {
+    text-align: center;
+}
 /*Mobile*/
 @media (max-width: 768px) {
     body {
