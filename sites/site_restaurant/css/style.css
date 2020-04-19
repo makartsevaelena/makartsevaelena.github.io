@@ -1,50 +1,56 @@
 body {
     font-family: "Oxygen", monospace;
     background: #6c7b95;
+    padding-top: 75px;
+}
+
+header {
+    width: 100%;
 }
 
 .logo-image {
-    width: 100px;
-    height: 100px;
-    background: url('../images/rabbit-4988412_1280.jpg') no-repeat;
+    height: 50px;
+    width: 50px;
+    background: url('../images/rabbit-3899900_640.png') no-repeat;
+    background-size: contain;
 }
 
-.title-header a {
-    color: #ffffff;
-    text-transform: uppercase;
-
-}
-
-.title-header a:focus,
-.title-header a:hover {
-    text-decoration: none;
+.restaurantName-holder {
+    margin-left: 15px;
+    line-height: 50px;
 }
 
 .jumbotron {
-    background: url('../images/carrot-1031389_1280.jpg');
+    background: url('../images/carrot-1031389_1280.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.1em 0.1em 0.1em;
     text-align: center;
-    margin-bottom: 0;
     opacity: .8;
+    margin: 3px 0;
 }
 
-.row {
-    margin: 2px;
-}
-
-.col {
-    text-align: center;
-    border: 1px solid #8bbabb;
-    margin: 2px;
+.tiles {
+    margin: 0 1px;
     padding: 0;
 }
 
-.col:hover {
-    box-shadow: 0 1px 1px 1px #8bbabb;
+.row {
+    margin: 0;
+    width: 100%;
+}
+
+.col-md-4,
+.col-xs-4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.col-md-4:hover,
+.col-xs-4:hover {
+    box-shadow: 0 1px 1px 1px #527441;
 }
 
 .menu-tile span,
@@ -52,50 +58,59 @@ body {
 .map-tile span {
     position: absolute;
     bottom: 0;
+    left: 0;
     right: 0;
-    width: 100%;
-    text-align: center;
     text-transform: uppercase;
-    background-color: #8bbabb;
+    background-color: #527441;
     color: #ffffff;
     opacity: .8;
+    margin: 0 2px;
+}
+
+.tile {
+    margin: 2px 2px;
+    opacity: .8;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .menu-tile {
     background: url('../images/food-1209503_640.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    opacity: .8;
-    padding-bottom: 56.25%;
 }
 
 .specials-tile {
     background: url('../images/top-view-1248955_640.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    opacity: .8;
-    padding-bottom: 56.25%;
-}
-
-.map-container {
-    padding-bottom: 56.25%;
 }
 
 .map-container iframe {
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
+    text-align: center;
     position: absolute;
 }
-.footer-copyright a{
+
+.footer-copyright a {
     color: #212529;
 }
+
+/*Mobile*/
+@media (max-width: 768px) {
+    body {
+        padding-top: 75px;
+    }
+
+    .restaurantName-text span {
+        display: none;
+    }
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 1199px) {}
+
+/*Desktops*/
+@media (min-width: 1200px) {}
