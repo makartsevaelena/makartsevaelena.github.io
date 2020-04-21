@@ -1,9 +1,10 @@
 body {
     font-family: "Oxygen", monospace;
     background: #6c7b95;
-    padding-top: 75px;
+    padding-top: 78px;
 }
 
+/*header*/
 header {
     width: 100%;
 }
@@ -13,16 +14,101 @@ header {
     width: 50px;
     background: url('../images/rabbit-3899900_640.png') no-repeat;
     background-size: contain;
+    float: left;
 }
 
 .restaurantName-holder {
     margin-left: 15px;
     line-height: 50px;
+    float: left;
 }
 
-.jumbotron {
+/*index.html*/
+.container-index {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-index .jumbotron {
     background: url('../images/carrot-1031389_1280.jpg') no-repeat;
     background-position: center center;
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    opacity: .8;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.container-index .tiles {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container-index .col-lg-4,
+.container-index .col-md-4,
+.container-index .col-md-12,
+.container-index .col-xs-4 {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container-index .col-lg-4:hover,
+.container-index .col-md-4:hover,
+.container-index .col-md-12:hover,
+.container-index .col-xs-4:hover {
+    box-shadow: 0 1px 1px 1px #527441;
+}
+
+.container-index .tile {
+    height: 300px;
+    text-align: center;
+    opacity: .8;
+    margin: 5px;
+}
+
+.container-index .tile-menu {
+    background: url('../images/food-1209503_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-index .tile-offer {
+    background: url('../images/market-4354598_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-index .map-tile iframe {
+    height: 100%;
+}
+
+.container-index .tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 5px;
+    text-transform: uppercase;
+    background-color: #527441;
+    color: #ffffff;
+    opacity: .8;
+    text-align: center;
+}
+
+/*offer-categories.html*/
+.container-offer {
+    margin-bottom: 25%;
+}
+
+.container-offer .jumbotron {
+    height: 250px;
+    width: 100%;
+    background: url('../images/easter-nest-2164820_1920.jpg') no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
     text-shadow: black 0.1em 0.1em 0.1em;
@@ -32,36 +118,27 @@ header {
     margin-bottom: 3px;
 }
 
-.tiles {
-    margin: 0 1px;
-    padding: 0;
-    padding-bottom: 20px;
-}
-
-.row {
+/*menu-categories.html*/
+.container-menu .tiles {
     margin: 0;
+    padding: 0;
     width: 100%;
 }
 
-.col-lg-4,
-.col-md-4,
-.col-md-12,
-.col-xs-4 {
+.container-menu .tile {
+    height: 300px;
+    text-align: center;
+    opacity: .8;
+    margin: 5px;
+}
+
+.container-menu .col-md-4,
+.container-menu .col-xs-4 {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-.col-lg-4:hover,
-.col-md-4:hover,
-.col-md-12:hover,
-.col-xs-4:hover {
-    box-shadow: 0 1px 1px 1px #527441;
-}
-
-.menu-tile span,
-.specials-tile span,
-.map-tile span {
+.container-menu .tile span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -69,73 +146,105 @@ header {
     text-transform: uppercase;
     background-color: #527441;
     color: #ffffff;
-    opacity: .8;
-    margin: 0 2px;
-}
-
-.tiles {
-     margin-bottom: 25%;
-}
-
-.tile {
-    margin: 3px 2px;
-    opacity: .8;
-    padding: 35% 0;
-}
-
-.menu-tile {
-    background: url('../images/food-1209503_640.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.specials-tile {
-    background: url('../images/market-4354598_640.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.map-container iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    position: absolute;
-    padding: 4px;
-}
-
-footer a {
-    color: #212529;
-}
-
-.support {
+    margin: 5px;
     text-align: center;
 }
 
-.btn {
-    margin-bottom: 10px;
+.container-menu .a-tile {
+    background: url('../images/menu-categories/carrot-juice-1623157_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.container-menu .b-tile {
+    background: url('../images/menu-categories/carrots-2106825_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-menu .c-tile {
+    background: url('../images/menu-categories/carrots-673184_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-menu .d-tile {
+    background: url('../images/menu-categories/clover-1225988_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-menu .e-tile {
+    background: url('../images/menu-categories/savoy-545346_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-menu .f-tile {
+    background: url('../images/menu-categories/tomatoes-769999_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*footer*/
+footer {
+    color: #212529;
+    font-size: 1rem;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+footer .delivery {
+    text-align: center;
+    float: right;
+}
+
+footer .contact {}
+
+footer .btn {
+    margin-bottom: .5rem;
+}
+
+footer .copyright {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+}
+
+footer .copyright a {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
 
 /*Mobile*/
 @media (max-width: 768px) {
-    body {
-        padding-top: 75px;
-    }
-
     .restaurantName-text span {
         display: none;
     }
 
-    .tile {
-        padding: 100px 0;
+    .container-index .tile, .container-menu .tile {
+        height: 150px;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    footer .delivery,
+    footer .contact {
+        text-align: center;
+        float: none;
     }
 }
 
 /*Tablets*/
-@media (min-width: 769px) and (max-width: 1199px) {
-    .tile {
-        padding: 20% 0;
-    }
-}
+@media (min-width: 769px) and (max-width: 1199px) {}
 
 /*Desktops*/
 @media (min-width: 1200px) {}

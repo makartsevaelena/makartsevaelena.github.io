@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-offer.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
     <title>Restaurant for rabbits</title>
@@ -40,12 +40,12 @@
 
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="menu-categories.html">
                             <i class="far fa-list-alt"></i>
                             Menu</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="offer-categories.html">
                             <i class="material-icons" style="font-size:15px">local_offer</i> Offer</a>
                     </li>
@@ -60,7 +60,7 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container container-offer">
             <div class="jumbotron">
                 <div class="offer text-center">
                     <h5 class="mb-1">We delivery</h5>
@@ -74,54 +74,46 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small">
-        <div class="container text-center text-md-right mt-5">
-            <div class="row mt-2">
-                <div class="col-md-8 col-lg-6">
-                    <div class="container">
-                        <h5 class="text-uppercase font-weight-bold">We delivery</h5>
-                        <a href="#!"><button type="button" class="btn btn-dark">Call us!</button></a>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <div class="delivery">
+                        <h5>We delivery</h5>
+                        <a href="#contact"><button type="button" class="btn btn-dark">Call us!</button></a>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-6 text-md-left">
-                    <h6 class="text-uppercase font-weight-bold" id="contact">Contact</h6>
-                    <ul class="list-unstyled">
-                        <li>
-                            <p>
-                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-envelope mr-3"></i> info@example.com
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-print mr-3"></i> + 01 234 567 89
-                            </p>
-                        </li>
-                    </ul>
+                <div class="col-md-6 col-xs-12">
+                    <div class="contact" id="contact">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>
+                                    <i class="fas fa-home"></i> New York, NY 10012, US
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-envelope"></i> info@example.com
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-phone"></i> + 01 234 567 88
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-1">© 2020
+        <div class="copyright">© 2020
             <a href="https://makartsevaelena.github.io/"> makartsevaelena.github.io</a>
+            <div class="footer-support">Images from
+                <a href="https://pixabay.com/"> Pixabay</a>
+            </div>
         </div>
-        <div class="text-center">Images from
-            <a href="https://pixabay.com/"> Pixabay</a>
-        </div>
-        <!-- Copyright -->
     </footer>
-    <!-- Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
