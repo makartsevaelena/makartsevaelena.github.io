@@ -19,16 +19,21 @@ header {
     margin-left: 15px;
     line-height: 50px;
 }
-main {
+
+.jumbotron {
+    height: 250px;
+    width: 100%;
     background: url('../images/easter-nest-2164820_1920.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    opacity: .8;
+    margin-top: 6px;
+    margin-bottom: 3px;
 }
 
-.offer {
-    padding-top: 300px;
-    padding-bottom: 350px;
-}
 footer a {
     color: #212529;
 }
@@ -36,6 +41,7 @@ footer a {
 .support {
     text-align: center;
 }
+
 .btn {
     margin-bottom: 10px;
 }
