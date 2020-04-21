@@ -23,6 +23,38 @@ header {
     float: left;
 }
 
+/*footer*/
+footer {
+    color: #212529;
+    font-size: 1rem;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+footer .delivery {
+    text-align: center;
+    float: right;
+}
+
+footer .btn {
+    margin-bottom: .5rem;
+}
+
+footer .copyright {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+}
+
+footer .copyright a {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+footer p {
+    margin-bottom: 0.1rem;
+}
+
 /*index.html*/
 .container-index {
     padding-right: 0;
@@ -100,14 +132,11 @@ header {
 }
 
 /*offer-categories.html*/
-.container-offer {
-    text-align: center;
-    position: relative;
-}
+.container-offer {}
 
 .container-offer .jumbotron {
-    height: 490px;
-    width: 100%;
+    position: relative;
+    height: 580px;
     background: url('../images/easter-nest-2164820_1920.jpg') no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,9 +144,10 @@ header {
     text-shadow: black 0.1em 0.1em 0.1em;
     opacity: .8;
     margin-top: 6px;
+    text-align: center;
 }
 
-.container-offer .offer {
+.jumbotron .offer {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -192,40 +222,6 @@ header {
     background-position: center;
 }
 
-
-/*footer*/
-footer {
-    color: #212529;
-    font-size: 1rem;
-    margin-top: 10%;
-    text-transform: uppercase;
-}
-
-footer .delivery {
-    text-align: center;
-    float: right;
-}
-
-footer .btn {
-    margin-bottom: .5rem;
-}
-
-footer .copyright {
-    background-color: #343a40;
-    color: rgba(255, 255, 255, .5);
-    text-align: center;
-}
-
-footer .copyright a {
-    color: #ffffff;
-    opacity: 0.5;
-}
-
-footer p {
-    margin-bottom: 0.1rem;
-}
-
-
 /*Mobile*/
 @media (max-width: 768px) {
     .restaurantName-text span {
@@ -238,7 +234,7 @@ footer p {
     }
 
     footer {
-        font-size: 1rem;
+        font-size: .5rem;
     }
 
     footer .delivery,
