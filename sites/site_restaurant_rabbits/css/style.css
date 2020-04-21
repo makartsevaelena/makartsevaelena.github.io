@@ -73,6 +73,10 @@ header {
     margin: 0 2px;
 }
 
+.tiles {
+     margin-bottom: 25%;
+}
+
 .tile {
     margin: 3px 2px;
     opacity: .8;

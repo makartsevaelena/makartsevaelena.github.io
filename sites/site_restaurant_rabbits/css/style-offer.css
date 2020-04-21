@@ -19,6 +19,9 @@ header {
     margin-left: 15px;
     line-height: 50px;
 }
+main .container {
+    margin-bottom: 25%;
+}
 
 .jumbotron {
     height: 250px;
