@@ -101,7 +101,8 @@ header {
 
 /*offer-categories.html*/
 .container-offer {
-    margin-bottom: 25%;
+    text-align: center;
+    position: relative;
 }
 
 .container-offer .jumbotron {
@@ -112,9 +113,15 @@ header {
     background-size: cover;
     color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.1em;
-    text-align: center;
     opacity: .8;
     margin-top: 6px;
+}
+
+.container-offer .offer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 /*menu-categories.html*/
